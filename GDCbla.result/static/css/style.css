@@ -1,0 +1,260 @@
+
+
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	background: linear-gradient(to right, #b3e5fc , #ffccbc, #c8e6c9);
+	border: solid red 1.5px;
+	color: black;
+	font-family: Typewriter, "Times New Roman", Times, serif;
+	font-size: 17px;
+}
+
+#svg-background
+{
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	z-index: -1;
+	background: url(../img/mu-text-watermark.svg);
+}
+
+.text-center{
+	text-align: center;
+}
+.roll-check{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}
+h3{
+	padding: 10px;
+	font-family: 'Poppins' sans-serif;
+}
+#search-btn{
+
+	padding: 10px;
+	color:#e60105;
+	margin-left: 10px;
+	border-radius: 5px;
+}
+#result-input{
+	color: #e60105;
+	border-radius: 5px;
+	padding: 5px;
+}
+#mu-logo
+{
+	height: 10vh;
+	position: absolute;
+	left: 2%;
+
+}
+
+#mu-logo-watermark-wrapper
+{
+	display: grid;
+	place-content: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+#mu-logo-watermark
+{
+	opacity: 0.1;
+	height: 40vh;
+}
+
+h1
+{
+	font-family: "Old English", "Times New Roman", Times, serif;
+	font-weight: 100;
+	font-size: 25px;
+	padding: 0.5%;
+}
+
+h2
+{
+	font-family: "Times New Roman", Times, serif;
+}
+
+h1, h2
+{
+	color: #e60105;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+main
+{
+	display: flex;
+	width: 100%;
+justify-content: center;
+	align-items: center;
+	margin-top: 40px;
+	border: 2px solid #e60105;
+	height: 5vh;
+}
+.student-data{
+	display: flex;
+	gap: 2.5rem;
+	font-family: sans-serif;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+label
+{
+	color: #e60105;
+	font-size: 20px;
+	font-family: "Times New Roman", Times, serif;
+	line-height: 1.5px;
+	
+}
+.student-data span{
+	color: black;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: "Times New Roman", Times, serif;
+}
+
+section
+{
+	padding-top: 2%;
+}
+
+table
+{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th
+{
+	font-family: "Times New Roman", Times, serif;
+}
+
+td, th
+{
+	border: solid #e60105 2px;
+}
+
+td, th
+{
+	padding: 0.5% 0.5%;
+}
+
+th
+{
+	color: #e60105;
+}
+
+.no-bottom-top-border
+{
+	border-bottom: none;
+	border-top: none;
+}
+
+.no-right-border
+{
+	border-right: none;
+}
+
+.no-left-border
+{
+	border-left: none;
+}
+
+#total-row
+{
+	text-align: right;
+	color: #e60105;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.serif-fonts
+{
+	font-family: "Times New Roman", Times, serif;
+}
+
+.end-section
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.end-section-data
+{
+	display: flex;
+}
+
+.end-data-set
+{
+	display: flex;
+	align-items: baseline;
+	padding: 0.3% 0.5%;
+	flex: 0.33;
+}
+
+.salutation-outer
+{
+	padding: 2% 1%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.salutation-inner
+{
+	color: #e60105;
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* =========================== GITHUB CORNER STYLES ========================== */
+
+.github-corner:hover .octo-arm {
+	animation: octocat-wave 560ms ease-in-out
+}
+
+@keyframes octocat-wave {
+
+	0%,
+	100% {
+		transform: rotate(0)
+	}
+
+	20%,
+	60% {
+		transform: rotate(-25deg)
+	}
+
+	40%,
+	80% {
+		transform: rotate(10deg)
+	}
+}
+
+@media (max-width:500px) {
+	.github-corner:hover .octo-arm {
+		animation: none
+	}
+
+	.github-corner .octo-arm {
+		animation: octocat-wave 560ms ease-in-out
+	}
+}

@@ -1,0 +1,71 @@
+<?php
+session_start(); 
+error_reporting(0);
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="marksheet, html, css">
+		<meta name="description" content="A marksheet using HTML and CSS.">
+		<meta name="author" content="Khalid Javid">
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="./static/css/style.css">
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="./static/img/favicon.ico" type="image/x-icon">
+
+		<title>Result-BCA</title>
+		<script src="script.js"></script>
+	</head>
+
+	<body>
+<!-- Add the first image here -->
+ <img id='mu-logo' src='./static/img/logo-gdc.png' alt='MU'>
+		
+			<svg width="80" height="80" viewBox="0 0 250 250"
+				style="fill:#e60105; color:#c8e6c9; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true">
+				<!-- The other styles for the corner are in ./static/css/style.css -->
+				
+				<path
+					d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+					fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+				<path
+					d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+					fill="currentColor" class="octo-body"></path>
+			</svg>
+		
+		
+		<img id="mu-logo" src="./static/img/logo-gdc.png" alt="MU">
+		<div id="svg-background">
+			<div id="mu-logo-watermark-wrapper">
+				<img id="mu-logo-watermark" src="./static/img/logo-gdc.png" alt="">
+			</div>
+		</div>
+			
+		<h1>Govt. Degree College (AUTONOMOUS) Baramulla</h1>
+		<h2>SEMESTER END RESULT</h2>
+<form id="search-form" method="post" action="result.php">
+		<div class="roll-check">
+					<h3 for="result">Enter Your Roll No.</h3>
+					<input type="text" id="roll-input" placeholder="6-digit College roll no." name="rollno_input">
+					<input type="submit" value="Search" id="search-btn"> 
+					
+					
+		</div>
+</form>
+<h1> <?php if($_SESSION['sts'])
+{
+	$msg = $_SESSION['sts'];
+	echo $msg;
+	session_unset();
+	session_destroy();
+	
+} ?> </h1>
+
+	</body>
+</html>

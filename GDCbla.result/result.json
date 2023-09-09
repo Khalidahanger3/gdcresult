@@ -1,0 +1,294 @@
+[
+  {
+    "studentInfo": {
+      "Name": "KHALID JAVID",
+      "Batch": "2022",
+      "Form No": "2200570",
+      "Exam. Roll No": "2222110208",
+      "Semester": "1",
+      "Session": "Dec 2022",
+      "rollnumber": "220450"
+    },
+    "results": [
+      {
+        "Course Type": "Major",
+        "Paper Code": "CAP122M",
+        "Paper Title": "COMPUTER FUNDAMENTALS",
+        "Theory": "64",
+        "Tutorial / Practical": "26",
+        "Total Marks Obtained": "90",
+        "Grade": "Pass"
+      },
+      {
+        "Course Type": "Minor",
+        "Paper Code": "CAP122N",
+        "Paper Title": "INTERNET BASICS AND MULTIMEDIA COMPUTING",
+        "Theory": "65",
+        "Tutorial / Practical": "25",
+        "Total Marks Obtained": "90",
+        "Grade": "Pass"
+      },
+      {
+        "Course Type": "MD",
+        "Paper Code": "BAD022I",
+        "Paper Title": "MANAGERIAL SKILLS",
+        "Theory": "64",
+        "Tutorial / Practical": "26",
+        "Total Marks Obtained": "90",
+        "Grade": "Pass"
+      },
+      {
+        "Course Type": "SEC",
+        "Paper Code": "WDP122S",
+        "Paper Title": "INTERNET BASICS AND HTML",
+        "Theory": "65",
+        "Tutorial / Practical": "25",
+        "Total Marks Obtained": "90",
+        "Grade": "Pass"
+      }, {
+        "Course Type": "AEC",
+        "Paper Code": "CNS022A",
+        "Paper Title": "ENGLISH COMMUNICATION SKILLS",
+        "Theory": "64",
+        "Tutorial / Practical": "26",
+        "Total Marks Obtained": "90",
+        "Grade": "Pass"
+      },
+      {
+        "Course Type": "VAC",
+        "Paper Code": "UIN022",
+        "Paper Title": "UNDERSTANDING INDIA",
+        "Theory": "65",
+        "Tutorial / Practical": "25",
+        "Total Marks Obtained": "90",
+        "Grade": "Pass"
+      }
+    ],
+    "totalMarksResult": {
+      "Total Marks / Result": "376 / 600 (62.67%)",
+      "Grade": "Pass"
+    }
+  },
+ 
+
+
+
+  {
+    "studentInfo": {
+      "Name": "Rayees Rather",
+      "Batch": "2022",
+      "Form No": "2200570",
+      "Exam. Roll No": "2222110208",
+      "Semester": "1",
+      "Session": "Dec 2022",
+      "rollnumber": "220415"
+    },
+    "results": [
+      {
+        "Course Type": "Major",
+        "Paper Code": "CAP122M",
+        "Paper Title": "COMPUTER FUNDAMENTALS",
+        "Theory": "64",
+        "Tutorial / Practical": "26",
+        "Total Marks Obtained": "90",
+        "Grade": "Pass"
+      },
+      {
+        "Course Type": "Minor",
+        "Paper Code": "CAP122N",
+        "Paper Title": "INTERNET BASICS AND MULTIMEDIA COMPUTING",
+        "Theory": "65",
+        "Tutorial / Practical": "25",
+        "Total Marks Obtained": "90",
+        "Grade": "Pass"
+      },
+      {
+        "Course Type": "MD",
+        "Paper Code": "BAD022I",
+        "Paper Title": "MANAGERIAL SKILLS",
+        "Theory": "64",
+        "Tutorial / Practical": "26",
+        "Total Marks Obtained": "90",
+        "Grade": "Pass"
+      },
+      {
+        "Course Type": "SEC",
+        "Paper Code": "WDP122S",
+        "Paper Title": "INTERNET BASICS AND HTML",
+        "Theory": "65",
+        "Tutorial / Practical": "25",
+        "Total Marks Obtained": "90",
+        "Grade": "Pass"
+      }, {
+        "Course Type": "AEC",
+        "Paper Code": "CNS022A",
+        "Paper Title": "ENGLISH COMMUNICATION SKILLS",
+        "Theory": "64",
+        "Tutorial / Practical": "26",
+        "Total Marks Obtained": "90",
+        "Grade": "Pass"
+      },
+      {
+        "Course Type": "VAC",
+        "Paper Code": "UIN022",
+        "Paper Title": "UNDERSTANDING INDIA",
+        "Theory": "65",
+        "Tutorial / Practical": "25",
+        "Total Marks Obtained": "90",
+        "Grade": "Pass"
+      }
+    ],
+    "totalMarksResult": {
+      "Total Marks / Result": "376 / 600 (62.67%)",
+      "Grade": "Pass"
+    }
+  },
+
+
+  {
+    "studentInfo": {
+      "Name": "tawqeer yousuf",
+      "Batch": "2022",
+      "Form No": "2200570",
+      "Exam. Roll No": "2222110208",
+      "Semester": "1",
+      "Session": "Dec 2022",
+      "rollnumber": "220471"
+    },
+    "results": [
+      {
+        "Course Type": "Major",
+        "Paper Code": "CAP122M",
+        "Paper Title": "COMPUTER FUNDAMENTALS",
+        "Theory": "64",
+        "Tutorial / Practical": "26",
+        "Total Marks Obtained": "90",
+        "Grade": "Pass"
+      },
+      {
+        "Course Type": "Minor",
+        "Paper Code": "CAP122N",
+        "Paper Title": "INTERNET BASICS AND MULTIMEDIA COMPUTING",
+        "Theory": "65",
+        "Tutorial / Practical": "25",
+        "Total Marks Obtained": "90",
+        "Grade": "Pass"
+      },
+      {
+        "Course Type": "MD",
+        "Paper Code": "BAD022I",
+        "Paper Title": "MANAGERIAL SKILLS",
+        "Theory": "64",
+        "Tutorial / Practical": "26",
+        "Total Marks Obtained": "90",
+        "Grade": "Pass"
+      },
+      {
+        "Course Type": "SEC",
+        "Paper Code": "WDP122S",
+        "Paper Title": "INTERNET BASICS AND HTML",
+        "Theory": "65",
+        "Tutorial / Practical": "25",
+        "Total Marks Obtained": "90",
+        "Grade": "Pass"
+      }, {
+        "Course Type": "AEC",
+        "Paper Code": "CNS022A",
+        "Paper Title": "ENGLISH COMMUNICATION SKILLS",
+        "Theory": "64",
+        "Tutorial / Practical": "26",
+        "Total Marks Obtained": "90",
+        "Grade": "Pass"
+      },
+      {
+        "Course Type": "VAC",
+        "Paper Code": "UIN022",
+        "Paper Title": "UNDERSTANDING INDIA",
+        "Theory": "65",
+        "Tutorial / Practical": "25",
+        "Total Marks Obtained": "90",
+        "Grade": "Pass"
+      }
+    ],
+    "totalMarksResult": {
+      "Total Marks / Result": "376 / 600 (62.67%)",
+      "Grade": "Pass"
+    }
+  },
+
+  {
+    "studentInfo": {
+      "Name": "Fatima Chisti",
+      "Batch": "2022",
+      "Form No": "2200570",
+      "Exam. Roll No": "2222110208",
+      "Semester": "1",
+      "Session": "Dec 2022",
+      "rollnumber": "220444"
+    },
+    "results": [
+      {
+        "Course Type": "Major",
+        "Paper Code": "CAP122M",
+        "Paper Title": "COMPUTER FUNDAMENTALS",
+        "Theory": "64",
+        "Tutorial / Practical": "26",
+        "Total Marks Obtained": "90",
+        "Grade": "Pass"
+      },
+      {
+        "Course Type": "Minor",
+        "Paper Code": "CAP122N",
+        "Paper Title": "INTERNET BASICS AND MULTIMEDIA COMPUTING",
+        "Theory": "65",
+        "Tutorial / Practical": "25",
+        "Total Marks Obtained": "90",
+        "Grade": "Pass"
+      },
+      {
+        "Course Type": "MD",
+        "Paper Code": "BAD022I",
+        "Paper Title": "MANAGERIAL SKILLS",
+        "Theory": "64",
+        "Tutorial / Practical": "26",
+        "Total Marks Obtained": "90",
+        "Grade": "Pass"
+      },
+      {
+        "Course Type": "SEC",
+        "Paper Code": "WDP122S",
+        "Paper Title": "INTERNET BASICS AND HTML",
+        "Theory": "65",
+        "Tutorial / Practical": "25",
+        "Total Marks Obtained": "90",
+        "Grade": "Pass"
+      }, {
+        "Course Type": "AEC",
+        "Paper Code": "CNS022A",
+        "Paper Title": "ENGLISH COMMUNICATION SKILLS",
+        "Theory": "64",
+        "Tutorial / Practical": "26",
+        "Total Marks Obtained": "90",
+        "Grade": "Pass"
+      },
+      {
+        "Course Type": "VAC",
+        "Paper Code": "UIN022",
+        "Paper Title": "UNDERSTANDING INDIA",
+        "Theory": "65",
+        "Tutorial / Practical": "25",
+        "Total Marks Obtained": "90",
+        "Grade": "Pass"
+      }
+    ],
+    "totalMarksResult": {
+      "Total Marks / Result": "376 / 600 (62.67%)",
+      "Grade": "Pass"
+    }
+  }
+
+
+
+
+
+]
